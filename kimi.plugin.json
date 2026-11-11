@@ -1,0 +1,40 @@
+{
+  "$schema": "https://catalog.msh.team/misc/kimi.plugin.schema.json",
+  "name": "inner-council",
+  "version": "0.1.0+local.20261111-140307",
+  "description": "Контекстные диалоги 24 внутренних голосов в духе Disco Elysium: споры, импульсы, наблюдения и развёрнутые сцены по ходу работы.",
+  "keywords": [
+    "внутренние голоса",
+    "диалоги",
+    "ролевая игра",
+    "disco elysium",
+    "размышления"
+  ],
+  "author": "Фуё",
+  "license": "MIT",
+  "skillInstructions": "",
+  "interface": {
+    "displayName": "Внутренний совет",
+    "shortDescription": "Внутренние голоса спорят по ходу задачи",
+    "longDescription": "Добавляет в чат контекстные сцены из 24 голосов навыков. Участники выбираются по смыслу размышления, могут спорить, перебивать друг друга и говорить несколько раз.",
+    "developerName": "Фуё",
+    "websiteURL": "",
+    "iconUrl": "",
+    "category": "PRODUCTIVITY",
+    "defaultLocale": "en-US",
+    "locales": "./locales/",
+    "tryPrompts": [
+      "Включи внутренний совет и помоги разобраться в сложной задаче",
+      "Обсуди это решение голосами, которые сейчас действительно уместны",
+      "Переключи совет в тихий режим"
+    ],
+    "skillOverrides": {
+      "inner-council": {
+        "displayName": "Внутренний совет",
+        "description": "Внутренние голоса спорят по ходу задачи"
+      }
+    }
+  },
+  "skills": "./skills/",
+  "commands": "./commands/"
+}
