@@ -1,7 +1,7 @@
 {
   "$schema": "https://catalog.msh.team/misc/kimi.plugin.schema.json",
   "name": "inner-council",
-  "version": "0.1.0+local.20261111-140307",
+  "version": "0.1.0+local.20261112-140304",
   "description": "Контекстные диалоги 24 внутренних голосов в духе Disco Elysium: споры, импульсы, наблюдения и развёрнутые сцены по ходу работы.",
   "keywords": [
     "внутренние голоса",
